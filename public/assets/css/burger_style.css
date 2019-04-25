@@ -1,0 +1,11 @@
+body {
+    background-image: url("../img/burger.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 66%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+pre {
+    font-family: 'Shadows Into Light', cursive !important; 
+}

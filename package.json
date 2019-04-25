@@ -2,23 +2,26 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "Handlebars Homework",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.17.1",
+    "sequelize": "^5.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/craigz123/burger.git"
   },
-  "author": "",
+  "author": "Craig Zimbler",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/craigz123/burger/issues"
   },
-  "homepage": "https://github.com/craigz123/burger#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "mysql": "^2.17.1"
-  }
+  "homepage": "https://github.com/craigz123/burger#readme"
 }

@@ -22,6 +22,6 @@ connection.connect(function(err) {
     console.log('connected as id ' + connection.threadId);
 });
 
+//added line 15 from part-2 number 10 in the deployment guide below on line 26
+connection.connect();
 module.exports = connection;
-
-//Does this replace lines 3-9?
